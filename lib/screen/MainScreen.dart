@@ -15,6 +15,7 @@ class _MainScreen extends State<MainScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text(
           'Home Screen',
           style: TextStyle(
